@@ -89,3 +89,31 @@ a {
     max-width: 475px;
   }
 }
+
+@font-face {
+  font-family: Abril;
+  src: url(../public/Abril_Display_Black.otf);
+}
+
+.abril {
+  font-family: Abril;
+}
+
+@font-face {
+  font-family: Bakilda;
+  src: url(../public/Bakilda/bakilda-histori.ttf);
+}
+
+.bakilda {
+  font-family: Bakilda;
+}
+
+
+@font-face {
+  font-family: Value Sans Pro;
+  src: url(../public/ValueSansPro-Black.ttf);
+}
+
+.valueSansPro {
+  font-family: Value Sans Pro;
+}
