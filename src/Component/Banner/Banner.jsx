@@ -24,7 +24,7 @@ const Banner = () => {
 
                         </div>
 
-                        <div className="relative ">
+                        <div className="relative hidden lg:block  ">
 
                             <div>
                                 <div className="absolute">

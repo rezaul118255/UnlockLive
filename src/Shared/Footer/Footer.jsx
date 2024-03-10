@@ -6,13 +6,13 @@ import twitter from "../../assets/Twitter.png"
 
 const Footer = () => {
     return (
-        <div className="h-[110px] bg-[#270A05] flex justify-between my-12  items-center mt-10" >
+        <div className="md:h-[110px] bg-[#270A05] md:flex justify-between my-12 mt-[400px]  items-center md:mt-10" >
 
             <div>
-                <img className="mx-6" src={logo} alt="" />
+                <img className="mx-6 mt-6 md:mt-0" src={logo} alt="" />
             </div>
             <div>
-                <ul className="text-white flex  ValuSansPro text-[16px] leading[16px] font-normal gap-9">
+                <ul className="text-white flex mx-4 md:mx-0 py-6 md:py-0 ValuSansPro text-[16px] leading[16px] font-normal gap-9">
                     <li>Terms</li>
                     <li>Privacy</li>
                     <li>Cookies</li>
