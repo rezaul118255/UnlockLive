@@ -1,6 +1,7 @@
 
 import logo1 from "../../assets/Group 1000007971.png"
-import logo2 from "../../assets/Group 1000007919.png"
+import logo2 from "../../assets/price.png"
+import logo3 from "../../assets/Group 1000007919.png"
 const CoffeeMenu = () => {
     return (
         <div>
@@ -18,7 +19,7 @@ const CoffeeMenu = () => {
                     <div>
 
                         <h1 className="abril text-[16px] md:text-[24px] font-semibold leading-[36px]">Double Espresso x2</h1>
-                        <p className="ValueSansPro text-[14px] font-normal opacity-[70%] leading-6">There are many variations of passages Lorem ............................. Ipsum form</p>
+                        <p className="ValueSansPro text-[#270A05] text-[14px] font-normal opacity-[70%] leading-6">There are many variations of passages Lorem ............................. Ipsum form</p>
                     </div>
                     <div>
                         <img src={logo2} alt="" />
@@ -35,7 +36,7 @@ const CoffeeMenu = () => {
                         <p className="ValueSansPro text-[14px] font-normal opacity-[70%] leading-6">There are many variations of passages Lorem ............................. Ipsum form</p>
                     </div>
                     <div>
-                        <img src={logo2} alt="" />
+                        <img src={logo3} alt="" />
                     </div>
 
                 </div>
@@ -49,7 +50,7 @@ const CoffeeMenu = () => {
                         <p className="ValueSansPro text-[14px] font-normal opacity-[70%] leading-6">There are many variations of passages Lorem ............................. Ipsum form</p>
                     </div>
                     <div>
-                        <img src={logo2} alt="" />
+                        <img src={logo3} alt="" />
                     </div>
 
                 </div>
@@ -63,7 +64,7 @@ const CoffeeMenu = () => {
                         <p className="ValueSansPro text-[14px] font-normal opacity-[70%] leading-6">There are many variations of passages Lorem ............................. Ipsum form</p>
                     </div>
                     <div>
-                        <img src={logo2} alt="" />
+                        <img src={logo3} alt="" />
                     </div>
 
                 </div>

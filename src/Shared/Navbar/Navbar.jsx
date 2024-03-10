@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 
 import logo from "../../assets/logo (3).png"
 import Search from "../../assets/Icon.png"
@@ -11,17 +12,10 @@ const Navbar = () => {
                 <div className="navbar-start  " >
                     <ul className="flex gap-[50px] text-[#270A05] text-[16px] font-semibold">
                         <li><a href="">Home</a></li>
-                        <li>
-                            <a href="">Page</a>
-
-                        </li>
+                        <li><a href="">Page</a></li>
                         <li><a href="">Menu</a></li>
                         <li><a href="">Contact Us</a></li>
                     </ul>
-
-
-
-
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <img src={logo} alt="" />
@@ -41,10 +35,7 @@ const Navbar = () => {
 
                     </div>
                     <div className="flex gap-4" >
-
                         <img src={User} alt="" />
-
-
                         <h1>Sign In</h1>
 
                     </div>
@@ -56,8 +47,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-
-
 

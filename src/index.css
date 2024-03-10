@@ -117,3 +117,20 @@ a {
 .valueSansPro {
   font-family: Value Sans Pro;
 }
+
+
+@media (max-width: 768px) {
+
+  /* Adjust breakpoint as needed */
+  .navbar-start {
+    display: none;
+    /* Hide navigation links initially */
+  }
+
+  .navbar-start.block {
+    display: block;
+    /* Show navigation links when toggled */
+  }
+
+  /* Other styling adjustments for mobile view */
+}

@@ -4,6 +4,8 @@
 import Banner from "./Component/Banner/Banner"
 import ChooseUs from "./Component/ChooseUs/ChooseUs"
 import CoffeeMenu from "./Component/CoffeeMenu/CoffeeMenu"
+import NewCreation from "./Component/NewCreation/NewCreation"
+import NewRecipe from "./Component/NewRecipe/NewRecipe"
 import SecondBanner from "./Component/SecondBanner/SecondBanner"
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <SecondBanner />
       <ChooseUs />
       <CoffeeMenu />
+      <NewRecipe />
+      <NewCreation />
 
     </>
   )
