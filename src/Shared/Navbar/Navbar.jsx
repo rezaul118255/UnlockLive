@@ -9,22 +9,22 @@ const Navbar = () => {
     return (
         <div>
             <div className="navbar bg-base-100">
-                <div className="navbar-start  " >
-                    <ul className="flex gap-[50px] text-[#270A05] text-[16px] font-semibold">
+                <div className="navbar-start  hidden lg:block  " >
+                    <ul className="flex gap-[50px]  text-[#270A05] text-[16px] font-semibold">
                         <li><a href="">Home</a></li>
                         <li><a href="">Page</a></li>
                         <li><a href="">Menu</a></li>
                         <li><a href="">Contact Us</a></li>
                     </ul>
                 </div>
-                <div className="navbar-center hidden lg:flex">
+                <div className="md:navbar-center lg:flex">
                     <img src={logo} alt="" />
 
                 </div>
                 <div className="navbar-end">
                     <div className="px-4 md:px-16 gap-1 md:gap-3 flex">
                         <div>
-                            <img src={Search} alt="" />
+                            <img className="mt-2" src={Search} alt="" />
                         </div>
                         <div>
                             <img src={favourite} alt="" />

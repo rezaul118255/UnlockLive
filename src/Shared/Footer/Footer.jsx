@@ -19,11 +19,11 @@ const Footer = () => {
                 </ul>
 
             </div>
-            <div className="mx-6">
+            <div className="mx-6 gap-4">
                 <button>
                     <img className="text-[#FFFFFF]" src={facebook} alt="" />
                 </button>
-                <button>
+                <button className="mx-4">
                     <img src={linkedin} alt="" />
                 </button>
                 <button>
